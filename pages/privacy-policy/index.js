@@ -1,21 +1,25 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-export default function Home() {
+export default function PrivacyPolicy() {
   return (
     <div className="container">
       <Head>
-        <title>My Sticker Apps</title>
+        <title>Privacy Policy | My Sticker Apps</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to My Sticker Apps
+          Privacy Policy
         </h1>
 
         <p className="description">
-          We currently don't have much to show here expect our <Link href="/privacy-policy"><a>privacy policy</a></Link>.
+          We currently do not, nor do we plan on collecting any user data for our sticker apps.<br/>We just create stickers you can use in your messaging app.
+        </p>
+
+        <p className="description">
+          😀🙏
         </p>
       </main>
 
@@ -91,10 +95,6 @@ export default function Home() {
         .description {
           line-height: 1.5;
           font-size: 1.5rem;
-        }
-
-        .description a {
-          color: #7127d9;
         }
 
         code {
